@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    padding: 30px;
+    font-size: 36px;
+    font-weight: 600;
+    background-color: palevioletred;
+    // height: 100%;
+
+    &__link {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    &__link:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}

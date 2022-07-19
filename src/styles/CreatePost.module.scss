@@ -1,0 +1,26 @@
+.create_post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+    &__content {
+        flex-direction: column;
+
+        &__h1 {
+            margin: 0 0 20px 0;
+            font-size: 52px;
+            color: #3f7f9c;
+        }
+    }
+
+    &__form {
+        flex-direction: column;
+        width: 600px;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

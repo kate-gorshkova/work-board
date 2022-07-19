@@ -1,0 +1,46 @@
+.posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+    &__content {
+        flex-direction: column;
+
+        &__h1 {
+            margin: 0 0 20px 0;
+            font-size: 52px;
+            color: #3f7f9c;
+        }
+    }
+
+    &__list {
+        flex-direction: column;
+        width: 600px;
+
+        &__item {
+            padding: 15px;
+            border: 2px solid #3f7f9c;
+            margin-bottom: 20px;
+
+            &__content {
+                display: flex;
+                flex-direction: column;
+
+                &__title {
+                    margin-bottom: 10px;
+                    font-size: 22px;
+                }
+
+                &__body {
+                    margin-bottom: 20px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+.menu {
+    position: relative;
+}

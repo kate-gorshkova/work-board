@@ -1,0 +1,22 @@
+.menu {
+    position: absolute;
+    top: 35px;
+    right: -50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    padding: 20px 40px;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+    background-color: white;
+
+    &__btn {
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        & > button {
+            width: 100%;
+        }
+    }
+}

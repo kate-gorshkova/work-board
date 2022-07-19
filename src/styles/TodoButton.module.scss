@@ -1,0 +1,13 @@
+.button {
+    background-color: palevioletred;
+    color: aliceblue;
+    padding: 4px 22px;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+    &__done {
+        background-color: #03c00d;
+    }
+}
